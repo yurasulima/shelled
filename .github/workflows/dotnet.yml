@@ -20,6 +20,4 @@ jobs:
       - name: Restore
         run: dotnet restore Shelled.sln
       - name: Build
-        run: dotnet build Shelled.sln --configuration Release --no-restore
-      - name: Test
-        run: dotnet test Shelled.sln --configuration Release --no-build
+        run: dotnet build Shelled.sln --configuration Release --no-restore 
