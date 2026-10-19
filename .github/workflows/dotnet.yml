@@ -1,4 +1,3 @@
-```yaml
 name: .NET CI
 
 on:
@@ -36,4 +35,3 @@ jobs:
           path: ./publish/
           if-no-files-found: error
           retention-days: 14
-```
